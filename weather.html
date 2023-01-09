@@ -1,0 +1,15 @@
+
+<html>
+  <head>
+      <title>Weather Today</title>
+  </head>
+  <body>
+
+<div style="text-align: center; margin-top: 100px;">
+    <h1>Weather in {{ weather.city }}</h1>
+    <p>{{ weather.temperature }} degrees</p>
+    <p>{{ weather.description }}</p>
+    <img src="http://openweathermap.org/img/w/{{ weather.icon }}.png" alt="Weather icon">
+</div>
+  </body>
+</html>
